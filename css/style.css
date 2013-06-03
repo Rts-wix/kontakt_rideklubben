@@ -73,8 +73,9 @@ header#top h1
 div#center .Label
 {
     display:inline-block;
-    width:100px;
+    width:300px;
     text-align:right;
+    margin-right:5px;
 }
 
 div#center .Input

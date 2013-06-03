@@ -13,10 +13,10 @@
     <asp:TextBox ID="TextBoxEmne" runat="server" CssClass="Input"></asp:TextBox>
     <br />
     <asp:Label ID="LabelBesked" runat="server" Text="Label" CssClass="Label">Besked</asp:Label>:
-    <asp:TextBox ID="TextBoxBesked" runat="server" CssClass="Input"></asp:TextBox>
+    <asp:TextBox ID="TextBoxBesked" runat="server" CssClass="Input" style="width:260px;height:100px;"></asp:TextBox>
     <br />
     <asp:Label ID="LabelNavn" runat="server" Text="Label" CssClass="Label">Navn</asp:Label>:
-    <asp:TextBox ID="TextBoxNavn" runat="server" CssClass="Input" style="width:260px;height:100px;"></asp:TextBox>
+    <asp:TextBox ID="TextBoxNavn" runat="server" CssClass="Input"></asp:TextBox>
     <br />
     <asp:Label ID="LabelEmail" runat="server" Text="Label" CssClass="Label">Email</asp:Label>:
     <asp:TextBox ID="TextBoxEmail" runat="server" CssClass="Input"></asp:TextBox>
