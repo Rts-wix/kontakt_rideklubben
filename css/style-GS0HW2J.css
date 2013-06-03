@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+.design_boks
+{
+	-webkit-box-shadow: 0px 0px 4px 0px black; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+    box-shadow: 0px 0px 4px 0px black; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
+	background-color:#6C3;
+	float:left;
+	margin-bottom:5px;
+	margin-right:5px;
+	border-radius:1px;
+}
+
+#top {
+	background-image: url(../billeder/top.jpg);
+	height:100px;
+	padding-top:50px;
+	
+	
+}
+
+header#top h1 
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 64px;
+	
+	color: white;
+	text-shadow: 4px 4px 8px black; /* Chrome, Firefox 3.5+, IE 10+, Opera 9+, Safari 1+ */
+	margin:0;
+	margin-left:50px;
+}
+
+#menu
+{
+	height:40px;
+}
+
+#container
+{
+}
+
+#venstre
+{
+	width:195px;
+	height:600px;
+}
+
+#center
+{
+	width:700px;
+	height:600px;
+}
+
+#højre
+{
+	display:none;
+}
+
+#bund
+{
+}
+
+#top, #menu, #container, #bund
+{
+	width:900px;
+}
+
+#container
+{
+	width:905px;
+}
