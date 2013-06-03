@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Kontakt.aspx.cs" Inherits="Default2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Kontakt.aspx.cs" Inherits="Kontakt" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolderTitle" Runat="Server">Kontakt
 </asp:Content>
@@ -6,6 +6,9 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolderCenter" Runat="Server">
     
+    <asp:Label ID="LabelSvar" runat="server" Text=""></asp:Label>
+    <br />
+
     <asp:Label ID="LabelEmne" runat="server" Text="Label" CssClass="Label">Emne</asp:Label>:
     <asp:TextBox ID="TextBoxEmne" runat="server" CssClass="Input"></asp:TextBox>
     <br />
@@ -25,7 +28,8 @@
     
 
     <span class="Label"></span>
-    <asp:Button ID="Button1" runat="server" Text="Send" CssClass="Input" />
+    <asp:Button ID="Button1" runat="server" Text="Send" CssClass="Input" 
+        onclick="Button1_Click" />
 
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolderHøjre" Runat="Server">
