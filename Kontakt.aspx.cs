@@ -26,7 +26,9 @@ public partial class Kontakt : System.Web.UI.Page
         cmd.Connection = conn;
 
         // definer SQL kommando
-        cmd.CommandText = "INSERT INTO Kontakt (Emne, Besked, Navn, Email, Mobil) VALUES (@Emne, @Besked, @Navn, @Email, @Mobil)";
+        cmd.CommandText = @"INSERT INTO Kontakt 
+                            (Emne, Besked, Navn, Email, Mobil) 
+                            VALUES (@Emne, @Besked, @Navn, @Email, @Mobil)";
 
         // put værdier ind i parametrene, fra formen
         cmd.Parameters.Add("@Emne", SqlDbType.NVarChar).Value = TextBoxEmne.Text;

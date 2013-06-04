@@ -25,9 +25,17 @@ header#top h1
 	font-size: 64px;
 	
 	color: white;
-	text-shadow: 4px 4px 8px black; /* Chrome, Firefox 3.5+, IE 10+, Opera 9+, Safari 1+ */
+
 	margin:0;
 	margin-left:50px;
+
+	text-shadow:
+        -1px -1px 0 gray,  
+         1px -1px 0 gray,
+        -1px  1px 0 gray,
+         1px  1px 0 gray,
+         4px 4px 8px black;
+
 }
 
 #menu
@@ -73,7 +81,7 @@ header#top h1
 div#center .Label
 {
     display:inline-block;
-    width:300px;
+    width:120px;
     text-align:right;
     margin-right:5px;
 }
